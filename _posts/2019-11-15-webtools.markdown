@@ -22,11 +22,20 @@ What type of projects are they suitable for?
 
 
 
-### Robots
-What is robots.txt and how have you configure it for your site?
-### Humans
-What is humans.txt and how have you configure it for your site?
+### Robots.txt
+_What is robots.txt and how have you configure it for your site?_
+
+Robots.txt is used to give robots(computers) instructions of how to use your website and is read before reading the rest of the web site. 
+The file has to be placed in the top directory of the site and should be named robots.txt. The file tells robots which files they can access on the web site and not. Normally robots are search engines but they can also be malware and the last mentioned wont consider the robots.txt instructions. On this site I am disallowing all robots cause I don't have any interest in getting indexed etc.
+
+### Humans.txt
+_What is humans.txt and how have you configure it for your site?_
+
+Humans.txt is a document with information about who is behind a site, who created and contributed in one way or another. Is should also be located in the top directory of the site. 
+
 ### Comments
-How did you implements comments to blog posts
+_How did you implements comments to blog posts?_
+
+I used disquss which was easy no install even though it took me a while to understand exaclty where the code had to be placed. I placed a script tag in _layout/default.html and another script in the _layout/post.html file after creating an account on disquss. It is simple and working well but I'm not a bog fan of being obligated to accept that you have to share location to be able to comment.
 ### Open Graph
 What is Open Graph and how do you make use of it?

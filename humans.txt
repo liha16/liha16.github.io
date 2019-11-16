@@ -1,0 +1,9 @@
+/* TEAM */
+	Web developer: Lisa
+    Contact: lv222fz [at] student.lnu.se
+	From:Stockholm, Sweden
+
+/* SITE */
+	Last update:2019/11/14
+	Language: English
+	Doctype:HTML5
