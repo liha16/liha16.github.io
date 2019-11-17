@@ -3,6 +3,7 @@ layout: post
 title:  "Web tools"
 date:   2019-11-15 04:48:03 -0600
 categories: webtools update
+comments: true
 ---
 Your blog page should have multiple posts (Swedish or English) and atleast one post where you reflects over the following:
 
@@ -36,6 +37,7 @@ Humans.txt is a document with information about who is behind a site, who create
 ### Comments
 _How did you implements comments to blog posts?_
 
-I used disquss which was easy no install even though it took me a while to understand exaclty where the code had to be placed. I placed a script tag in _layout/default.html and another script in the _layout/post.html file after creating an account on disquss. It is simple and working well but I'm not a bog fan of being obligated to accept that you have to share location to be able to comment.
+I used disqus which was easy no install even though it took me a while to understand exaclty where the code had to be placed. I placed a script tag in _layout/default.html and another script in the _layout/post.html file after creating an account on disqus. It is simple and working well.
+
 ### Open Graph
 What is Open Graph and how do you make use of it?
