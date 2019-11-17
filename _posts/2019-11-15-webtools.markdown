@@ -4,6 +4,7 @@ title:  "Web tools"
 date:   2019-11-15 04:48:03 -0600
 categories: webtools update
 comments: true
+image: /img/avatar.gif
 ---
 Your blog page should have multiple posts (Swedish or English) and atleast one post where you reflects over the following:
 
@@ -14,12 +15,15 @@ What do you think of pre-compiling your CSS??
 * Which techniques did you use?
 * Pros and cons?
 
-Osmidigt med tusen filer, det laddar inte alltid automatiskt så för starta om servern... 
-Bra att ändra på ett ställe 
+I like the fact that CCS pre processors use variables and nesting to organize the code better and to be DRY. Normally, if you want to change one color that you use on many places in your css file you have to change the code in many places. With variables it has to be changed only at one place, very practical! I don't find it enough useful to change from normal CSS. Normal CSS is a large file and sometimes a bit hard to find hat you're looking for but there are ways to divide the style rules (divide into different documents). Using it togehter with Jekyll wasn't easier that to use regular CSS. I would have prefered to edit a regular CSS document. Aso because it's easier to use the development toools in the webbrowser the regular way.
+
  
 ### SSG
-What do you think of static site generators?
-What type of projects are they suitable for?
+_What do you think of static site generators?
+What type of projects are they suitable for?_
+
+I think they can be very useful if you want to make a little web site fast, specially if you want to make a blog that you only administrate yourself as it doesn't allow you have a database. 
+I have already made my own template in html and I use php to include documents as head, header and footer. I use this template to set up basic websites fast. And I find it much easier to edit and customize that Jekyll. Jeykyll has a lot of files and maybe not all developers are familiar with the structure so if a site needs to be updated by a developer with no experience with jekyll it more complicated than a basic html using php. 
 
 
 
@@ -40,4 +44,6 @@ _How did you implements comments to blog posts?_
 I used disqus which was easy no install even though it took me a while to understand exaclty where the code had to be placed. I placed a script tag in _layout/default.html and another script in the _layout/post.html file after creating an account on disqus. It is simple and working well.
 
 ### Open Graph
-What is Open Graph and how do you make use of it?
+_What is Open Graph and how do you make use of it?_
+
+Open Graph is a way to control how the website is presented when sharing it on social media. You can effect this presentation by editing tags in the head of the hmtl document and changing the information, for example: og:image and a adress to the image.
