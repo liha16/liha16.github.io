@@ -2,12 +2,10 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: default
-title: Home
+layout: index
+title: Blog
 image: /img/avatar.gif
 ---
-# Welcome to my page! 
+# Blog
 
-This is my web site that I will use to present my work. 
-
-[Read my blog here!](https://www.google.com "Blog here!")
+Below you can read my posts. I hope you like them :)
