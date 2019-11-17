@@ -10,4 +10,4 @@ image: /img/avatar.gif
 
 This is my web site that I will use to present my work. 
 
-[Read my blog here!](https://www.google.com "Blog here!")
+[Read my blog here!](blog.html "Blog here!")

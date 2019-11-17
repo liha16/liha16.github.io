@@ -44,4 +44,4 @@ I used disqus which was easy no install even though it took me a while to unders
 ### Open Graph
 _What is Open Graph and how do you make use of it?_
 
-Open Graph is a way to control how the website is presented when sharing it on social media. You can effect this presentation by editing tags in the head of the hmtl document and changing the information, for example: og:image and a adress to the image. I changed the image (globally) to my avatar image made in the parallel course and in the blog post about Barcelona I choose a picture of Barcelona, only for that post.
+Open Graph is a way to control how the website is presented when sharing it on social media. You can effect this presentation by editing tags in the head of the hmtl document and changing the information, for example: og:image and a adress to the image. I changed the image (globally) to my avatar image made in the parallel course and in the blog post about Barcelona I choose a picture of Barcelona, only for that post. I had to edit the head.html file to insert og:type as I couldn't find any documentation about how to do it in an other way. Inserting it in _config didn't work.

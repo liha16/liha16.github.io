@@ -30,6 +30,7 @@ github_username:  liha16
 defaults:
   - scope:
       path: ""
+      type: "website"
     values:
       image: 
         path: /img/avatar.gif
