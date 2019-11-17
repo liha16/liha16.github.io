@@ -3,10 +3,10 @@
  */
 .site-header {
   border-bottom: none;
-  min-height: $spacing-unit * 3;
+  min-height: $spacing-unit * 5;
   background: $brand-color;
-  box-shadow: $grey-color-lighter 0 6px 6px;
-
+  box-shadow: $grey-color-lighter 6px 6px 6px;
+  margin-top:$spacing-unit;
   // Positioning context for the mobile navigation icon
   position: relative;
 }
@@ -14,11 +14,13 @@
 .site-title {
   @include relative-font-size(1.625);
   font-weight: 500;
-  line-height: $base-line-height * $base-font-size * 3.75;
+  line-height: $base-line-height * $base-font-size * 6;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
   color:white;
+  font-size: $base-font-size * 2;
+  font-family: $heading-font;
   
   &,
   &:visited {
@@ -28,8 +30,12 @@
 
 .site-nav {
   float: right;
-  line-height: $base-line-height * $base-font-size * 3.75;
+  line-height: $base-line-height * $base-font-size * 6;
   color: $background-color;
+  min-height: $spacing-unit * 5;
+  background-color: white;
+  padding:0 $spacing-unit;
+  box-shadow: $grey-color 0 0 16px;
 
 
   .nav-trigger {
